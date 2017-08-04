@@ -1,17 +1,42 @@
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 # inches
-my_weight = 180 # lbs
-my_eyes = 'Blue'
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'iSimoneChen'
+age = 25 # not a lie
+height = 3 # inches
+weight = 100 # lbs not sure
+eyes = 'Black'
+teeth = 'White'
+hair = 'Black'
 
-print "Let's talk about %s." % my_name
-print "He's %d inches tall." % my_height
-print "He's %d pounds heavy." % my_weight
-print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." %(my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." % my_teeth
+print(f"Let's talk about {name}.") # "Let's talk about %s." % name
+print(f"She's {height} inches tall.") # "She's %d inches tall." % height
+print(f"She's {weight} pounds heavy.") # "She's %d pounds heavy." % weight
+print("Actually that's not too heavy.") 
+print(f"She's got {eyes} eyes and {hair} hair.") 
+# "She's got %s eyes and %s hair." %(eyes, hair)
+print(f"Her teeth are usually {teeth} depending on the coffee.") 
+# "Her teeth are usually %s depending on the coffee." % teeth
 
 # this line is tricky, try to get it exactly right
-print "If I add %d, %d, and %d I get %d." %(my_age, my_height, my_weight, my_age + my_height + my_weight)
+total = age + height + weight
+print(f"If I add {age}, {height}, and {weight} I get {total}.") 
+# "If I add %d, %d, and %d I get %d." %(age, height, weight, a
+# ge + height + weight)
+
+# make a *string*, using `""` (double-quotes) around a piece of text
+# embed variables inside a string, using a special `{}` sequence
+# then put the variable you want inside the `{}` characters.
+# start the string with the letter `f` for "format"
+
+# Drill
+
+# Try to write some variables that convert the inches and pounds to 
+# centimeters and kilograms. Do not just type in the measurements.
+# Work out the math in Python.
+
+# print("Input your height: ")
+# h_ft = int(input("Feet: "))
+# h_inch = int(input("Inches: "))
+
+# h_inch += h_ft * 12
+# h_cm = round(h_inch * 2.54, 1)
+
+# print("Your height is : %d cm." % h_cm)
