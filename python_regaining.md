@@ -10,6 +10,7 @@ Take the study drill 2 of Excecise 6: Strings and Text as an example.
 
 (still on the way)
 
-## Flow 
+## One More 
 
 Lingustists have found that people tend to be more reasonalbe when we are using foreign languages. Focused on strange words, phrases, sentences, grammar and logic, we don't have much space for sentimental stuff in mind.
+
